@@ -16,6 +16,7 @@
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
     <title>Kevin Mariotis - Portafolio</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./img/favicon/favicon.ico" />
@@ -62,14 +63,37 @@
         <div class="container p-4 scroll" id="portafolio">
             <h2 class="fw-bolder fs-1 my-4 text-center text" id="l1">Portafolio</h2>
             <div class="container mx-auto row my-3">
-                <div class="card col-sm border rounded m-2 move" id="1" data-bs-toggle="modal" data-bs-target="#modalCard1">
-                    <p class="text-center">Front-End</p>
-                </div>
-                <div class="card col-sm border rounded m-2" id="2">
-                    <p class="text-center">Back-End</p>
-                </div>
-                <div class="card col-sm border rounded m-2" id="3">
-                    <p class="text-center">Database</p>
+                <div class="row">
+                    <div class="card1 col-md-4" id="1">
+                        <div class="profile-card-2">
+                            <img src="./img/front-end.jpg" width="100%" class="img img-responsive">
+                            <div class="profile-name">FRONT-END</div>
+                            <div class="profile-username">Click para ver mas</div>
+                            <div class="profile-icons"><a href="#"><i class="fa fa-python"></i></a><a href="#"><i
+                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card1 col-md-4" id="2">
+                        <div class="profile-card-2">
+                            <img src="./img/back-end.jpg" width="100%" class="img img-responsive">
+                            <div class="profile-name">BACK-END</div>
+                            <div class="profile-username">Click para ver mas</div>
+                            <div class="profile-icons"><a href="#"><i class="fa fa-python"></i></a><a href="#"><i
+                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card1 col-md-4" id="3">
+                        <div class="profile-card-2">
+                            <img src="./img/database.jpg" width="100%" class="img img-responsive">
+                            <div class="profile-name">DATABASE</div>
+                            <div class="profile-username">Click para ver mas</div>
+                            <div class="profile-icons"><a href="#"><i class="fa fa-python"></i></a><a href="#"><i
+                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -118,25 +142,25 @@
     <footer class="bg-dark p-5">
         <p class="text-white text-center my-auto">Copyright &copy;. Derechos Reservados - Kevin Mariotis - 2022</p>
     </footer>
-    
+
     <!-- Modals -->
     <div class="modal fade" id="modalCard1" tabindex="-1" aria-labelledby="modalCard1Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modalCard1Label">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-outline-warning">Save changes</button>
-      </div>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalCard1Label">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-warning">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
     <!-- scripts -->
     <script src="./js/scroll.js"></script>
