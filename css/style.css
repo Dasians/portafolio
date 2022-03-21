@@ -7,7 +7,7 @@ main{
 .name{
     font-size: 4em;
     font-weight: bold;
-    color: white;
+    color: Black;
 }
 .scroll{
     scroll-margin-top: 87.5px;
@@ -22,3 +22,20 @@ ul li a:hover{
     background: #ffc107!important;
     border-radius: 10px;
 }
+.div{
+    clip-path: circle(0.1% at center);
+    transition: 2s;
+  }
+  .div2{
+    clip-path: circle(150% at center);
+    transition: 2s;
+  }
+  .card{
+    opacity: 0 !important;
+    transform: scale(0.9);
+    transition: 1s ease-in-out all;
+  }
+  .card2{
+    opacity: 1 !important;
+    transform: scale(1);
+  }
