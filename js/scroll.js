@@ -4,5 +4,5 @@ window.addEventListener("scroll", function name(params) {
     var nav = document.querySelector("#link2")
     nav.classList.toggle("active",this.window.scrollY>750 && this.window.scrollY<950)
     var nav = document.querySelector("#link3")
-    nav.classList.toggle("active",this.window.scrollY>950)
+    nav.classList.toggle("active",this.window.scrollY>1000)
 })
