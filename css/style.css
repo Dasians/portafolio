@@ -23,11 +23,11 @@ ul li a:hover{
     border-radius: 10px;
 }
 .div{
-    clip-path: circle(0.1% at top);
+    clip-path: circle(5% at center);
     transition: 2s;
   }
 .div2{
-    clip-path: circle(150% at top);
+    clip-path: circle(150% at center);
     transition: 2s;
   }
 .card1{
